@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
+
+body {
+	width: 573px;
+	height: 1100px;
+}
+
+h3 {
+	margin-top: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: #605D5D;
+	text-align: center;	
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 27px;
+	color: #605D5D;
+	line-height: 1.43em;
+	letter-spacing: 0.8px;
+
+}
+
+.text {
+	margin-top: 11px;
+	margin-left: 50px;
+	margin-right: 40px;
+}
+
+.arrow {
+	display: block;
+	position: absolute;
+	top: 588px;
+	left: 328px;
+}
+
+form {
+	margin-top: 24px;
+	
+}
+
+.name,
+.mail,
+.phone {
+	margin-top: 17px;
+	margin-left: 88px;	
+	font-size: 23px;
+	color: #8A8A8A
+	letter-spacing: 0.8px;
+	word-spacing: -0.35em;
+}
+
+.normSpacing {
+	word-spacing: normal;
+}
+input {
+	width: 388px;
+	height: 56px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 23px;
+	font-weight: 300;
+	letter-spacing: 0.8px;	
+	background-color: #DEDEDE;
+	color: #8A8A8A;
+	padding-left: 6px;
+	border: 2px solid #B8B8B8
+	
+}
+.prefix {
+	width: 93px;
+	font-size: 27px;	
+}
+
+.code {
+	width: 97px;
+	font-size: 27px;	
+}
+.number {
+	width: 183px;
+	font-size: 27px;	
+	
+}
+input[type="submit"] {
+	font-size: 26px;
+	font-weight: 400;
+	display: block;
+	margin: auto;
+	margin-top: 34px;
+	width: 486px;
+	height: 58px;
+	background-color: #fff;
+	color: #00B800;
+	border: 2px solid #00B800;
+	padding-bottom: 5px;
+}
+.bottom_text {
+	margin-top: 16px;
+	display:block;
+	text-align: center;
+	font-size: 18px;
+}
