@@ -1,0 +1,33 @@
+body {
+	box-sizing: border-box;
+}
+
+h1 {
+	display: block;
+}
+.first {
+	height: 400px;
+
+}
+
+.first div {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+
+}
+
+.second,
+.third,
+.fourth,
+.fifth {
+	height: 200px;
+}
+.col {
+	height: 100%;
+	border: 10px solid white;
+
+}
