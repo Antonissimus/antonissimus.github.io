@@ -9,17 +9,7 @@
 	<meta name="description" content="">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-	<style>
-		body {
-			opacity: 0;
-			overflow-x: hidden;
-		}
-
-		html {
-			background-color: #fff;
-		}
-	</style>
+	<link rel="stylesheet" href="css/main.min.css">
 
 </head>
 
@@ -38,14 +28,16 @@
 				</div>
 				<div class="language">
 					<p>Choose your language:</p>
-					<div class="flags flex">
-						<img src="img/flag-GB.png" alt="Great Britain">
-						<img src="img/flag-GE.png" alt="German">
-						<img src="img/flag-SP.png" alt="Spain">
-					</div>
+					<ul class="flags flex">
+
+						<li><a href="#"><img src="img/flag-GB.png" alt="Great Britain"></a></li>
+						<li><a href="#"><img src="img/flag-GE.png" alt="German"></a></li>
+						<li><a href="#"><img src="img/flag-SP.png" alt="Spain"></a></li>
+
+					</ul>
 				</div>
 				<div class="curencies">
-					<p>Currencies</p>
+					<label>Currencies</label><br>
 					<select name="Currencies">
 						<option disabled>Select currencie</option>
 						<option value="EUR">Euro</option>
@@ -107,7 +99,7 @@
 					<li><a href="#">Printers</a></li>
 					<li><a href="#">Scanners</a></li>
 				</ul>
-				<a href="#" class="flex"><img src="img/moneyback.png" alt="moneyback"></a>		
+				<a href="#" class="flex"><img src="img/moneyback.png" alt="moneyback"></a>
 			</aside>
 			<div class="main">
 				<h3>FEATURED PRODUCTS</h3>
@@ -183,12 +175,12 @@
 
 					<div class="prodNew ">
 						<img src="img/banner-new.png" alt="new">
-						<a href="#" class="details">DETAILS</a>						
+						<a href="#" class="details">DETAILS</a>
 					</div>
 
 					<div class="prodSale">
-						<img src="img/banner-sale.png" alt="new">	
-						<a href="#" class="details">DETAILS</a>							
+						<img src="img/banner-sale.png" alt="new">
+						<a href="#" class="details">DETAILS</a>
 					</div>
 
 				</div>
@@ -198,26 +190,28 @@
 		<footer class="flex">
 
 			<div class="bankCards flex">
-				<a href="#"><img src="img/cards.png" alt="cards"></a>
+				<a href="#"><img src="img/PayPal.png" alt="Paypal"></a>
+				<a href="#"><img src="img/visa.png" alt="Visa"></a>
+				<a href="#"><img src="img/master.png" alt="master"></a>
 			</div>
-			
+
 			<div class="links flex">
-					<ul class = "flex">
-							<li><a href="#">SPECIALS</a></li>
-							<li><a href="#">SITE SEARCH</a></li>
-							<li><a href="#">CONTACT US</a></li>
-							<li><a href="#">CREATE AN ACCAUNT</a></li>
-							<li><a href="#">CUSTOMER LOGIN</a></li>
-					</ul>
-					<div class="copyrights">
-						<p>Copyright &copy; Your Company Name</p>
-					</div>
+				<ul class="flex">
+					<li><a href="#">SPECIALS</a></li>
+					<li><a href="#">SITE SEARCH</a></li>
+					<li><a href="#">CONTACT US</a></li>
+					<li><a href="#">CREATE AN ACCAUNT</a></li>
+					<li><a href="#">CUSTOMER LOGIN</a></li>
+				</ul>
+
+				<p class="copyrights">Copyright &copy; Your Company Name</p>
+
 			</div>
 		</footer>
 
 	</div>
 
-	<link rel="stylesheet" href="css/main.min.css">
+
 	<script src="js/scripts.min.js"></script>
 
 </body>
