@@ -174,3 +174,42 @@ function toPow() {
 	}
 	// alert(base + ' в степени ' + exp + ' равно: ' + Math.pow(base, exp));
 }
+
+// Задание 10
+
+let getResultBtn = document.querySelector('.ex10 #getResult');
+getResultBtn.addEventListener('click', printTable);
+
+function printTable() {
+	let result = [];
+	for (let i = 0; i <= 9; i++) {
+		result[i] = '\n7 * ' + i + ' = ' + 7 * i;
+	}
+	alert(result);
+}
+
+// Задание 11
+
+let getResultBtn2 = document.querySelector('.ex11 #getResult2');
+getResultBtn2.addEventListener('click', printTable2);
+
+function printTable2() {
+	let result = 1;
+	for (let i = 1; i <= 50; i++) {
+		result *= i;
+	}
+	alert('Произведение чисел от 1 до 50: ' + result);
+}
+
+// Задание 12
+let printTable3 = function () {
+	let text = document.querySelector('#symbolTable');
+	let result = [];
+	for (let i = 0; i <= 1000; i++) {
+		result[i] = "&#" + (1000 + i) + ';\n'
+	}
+	text.innerHTML = result;
+}
+
+let getSimboltableBtn = document.querySelector('.ex12 #getSymbolTable');
+getSimboltableBtn.addEventListener('click', printTable3);
