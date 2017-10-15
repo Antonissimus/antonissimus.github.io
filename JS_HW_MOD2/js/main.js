@@ -206,7 +206,7 @@ let printTable3 = function () {
 	let text = document.querySelector('#symbolTable');
 	let result = [];
 	for (let i = 0; i <= 1000; i++) {
-		result[i] = "&#" + (1000 + i) + ';\n'
+		result[i] = "&#" + (1000 + i) + ';'
 	}
 	text.innerHTML = result;
 }
